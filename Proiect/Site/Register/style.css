@@ -1,0 +1,47 @@
+body{
+    background-color: #dff9fb;
+}
+
+#main{
+
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 50px;
+
+    text-align: center;
+
+    width: 28vw;
+    height: 30vw;
+    background-color: #00cec9;
+}
+
+#utilizator{ 
+    margin-top: 5vw;
+}
+
+label{
+    color: #dff9fb;
+    font-weight: 900;
+    font-size: 200%;
+}
+
+input{
+    font-weight: 900;
+    border: transparent;
+}
+
+#inregistreaza{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 7vh;
+    font-size: 100%;
+    border-radius: 20px;
+    background-color: #f1b066;
+    color: #e8f7f8;
+}
+
+/*#inregistreaza:hover{
+    background-color: #ffbe76;
+}*/

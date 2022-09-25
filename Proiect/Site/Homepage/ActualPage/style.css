@@ -1,0 +1,192 @@
+body{
+    margin: 0%;
+    background-color: #ebf5f5;
+}
+
+#header{
+
+    top: 0;
+    position: sticky;
+    
+    background-color: #bbdddd;
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+#menu{
+    height: 3vw;
+}
+
+#meniu{
+    width: 3vw;
+    background-image: url(Resurse/menu.png);
+    background-size: 3vw;
+}
+
+#articole{
+
+    margin-top: 15vh;
+
+    background-color: white;
+
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+
+.spacing{
+    height: 1vw;
+    background-color: #ebf5f5;
+}
+
+
+.item{
+    height: 10vw;
+    font-size: 1.5em;
+}
+
+.icon{
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 10vw;
+}
+
+.nume{
+    margin-left: 1em;
+    margin-right: 1em;
+    word-wrap: break-word;
+    width: 17vw;
+}
+
+.colorway{
+    margin-left: 1em;
+    margin-right: 1em;
+    word-wrap: break-word;
+    width: 10vw;
+    text-align: center;
+}
+
+.gen{
+    margin-left: 1em;
+    margin-right: 1em;
+    word-wrap: break-word;
+    width: 6vw;
+    text-align: center;
+}
+
+.pret{
+    margin-left: 1em;
+    margin-right: 1em;
+    word-wrap: break-word;
+    width: 5vw;
+    text-align: center;
+}
+
+.remove{
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    width: 10vw;
+}
+
+.sterge{
+    font-size: 0.8em;
+    background-color: white;
+    border: 0.11em  solid #bcdcdc;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.sterge:hover{
+    background-color: #9bcaca;
+    border: 0.11em  solid #9bcaca;
+    color: white;
+}
+
+.mini-space{
+    height: 0.6vw;
+    background-color: #ebf5f5;
+}
+
+.big-space{
+    height: 6vw;
+    background-color: #ebf5f5;
+}
+
+.total{
+    height: 5.5vw;
+    font-size: 1.5em;
+}
+
+.hd{
+    height: 2.7vw;
+    font-size: 1.5em;
+}
+
+.nume_h{
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    word-wrap: break-word;
+    width: 17vw;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+
+
+@font-face {
+    font-family: "shoestore";
+    src: url("Resurse/ShoeStor.ttf");
+}
+
+#Nume_Site{
+
+    font-family: shoestore;
+    font-size: 3em;
+    width: 3vw; 
+
+    margin-left: auto;
+}
+
+#spatiu_titlu{
+    width: 45vw;
+}
+
+#spatiu_dr{
+    width: 16.5vw;
+}
+
+#dropdown{
+    
+    top: 3vw;
+    position: sticky;
+
+    width: 12vw;
+}
+
+#dropdown a {
+
+    font-size: 1.5em;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+
+}
+  
+#dropdown a:hover {
+
+    background-color: #bbdddd;
+    
+  }

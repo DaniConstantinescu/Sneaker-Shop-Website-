@@ -1,0 +1,138 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Cont</title>
+
+                <link rel="stylesheet" href="style.css">
+
+            </head>
+            <body>
+
+                <table id="header">
+                    <tr id="menu">
+                        <td id="meniu" onmouseover="open_menu()" onmouseleave="close_menu()"></td>
+
+                        <td id="spatiu_titlu"></td>
+
+                        <td id="Nume_Site">SNKRS</td>
+
+                        <td></td>
+
+                        <td id="spatiu_dr"></td>
+                    </tr>
+
+                </table>
+
+                <div id="dropdown" onmouseover="open_menu()" onmouseleave="close_menu()">
+                    <a href="../../Homepage/loader_homepage.php">Home</a>
+                    <a href="../../Cos/loader_cos.php">Cos de cumparaturi</a>
+                    <a href="../../Despre/index.html">Despre</a>
+                    <a href="logOut.php">Log Out</a>
+                </div>
+
+                <table id = "cont">
+
+                    <tr id="dateP"><td colspan="2">Date Personale</td></tr>
+
+                    <tr class="mini-space"><td colspan="2"></td></tr>
+
+                    <tr class="date">
+                        <td id="col1">Utilizator: </td>
+                        <td id="col2">Email: </td>
+                    </tr>
+
+                    <tr class="date">
+                        <td id="col1">Telefon: </td>
+                        <td id="col2">Adresa: </td>
+                    </tr>
+
+                    <tr id="big-space"><td colspan="2"></td></tr>
+                </table>
+
+                <table id = "comenzi">
+        
+                <tr id="titluCom"><td colspan="3">Comenzi</td></tr>
+
+                <tr class="mini-space"><td colspan="3"></td></tr>
+                
+            <form method="POST" action="loader_comanda.php">
+                <tr class="comanda">
+                    <td class="id_comanda">Nr. comanda: 3</td>
+                    <td class="data">Data plasarii comenzii: 25.04.2022 &#65279; &#65279; &#65279; Ora: 16:30</td>
+                    <td class="buton"><button class="apasa">Afiseaza Comanda</button></td>
+                    <td style="display: none;"><input type="text" value= 3 name="id_comanda"></td>
+                </tr>
+            </form>
+            
+            <form method="POST" action="loader_comanda.php">
+                <tr class="comanda">
+                    <td class="id_comanda">Nr. comanda: 5</td>
+                    <td class="data">Data plasarii comenzii: 12.04.2022 &#65279; &#65279; &#65279; Ora: 17.03</td>
+                    <td class="buton"><button class="apasa">Afiseaza Comanda</button></td>
+                    <td style="display: none;"><input type="text" value= 5 name="id_comanda"></td>
+                </tr>
+            </form>
+            
+            <form method="POST" action="loader_comanda.php">
+                <tr class="comanda">
+                    <td class="id_comanda">Nr. comanda: 6</td>
+                    <td class="data">Data plasarii comenzii: 12.03.2022 &#65279; &#65279; &#65279; Ora: 02:34</td>
+                    <td class="buton"><button class="apasa">Afiseaza Comanda</button></td>
+                    <td style="display: none;"><input type="text" value= 6 name="id_comanda"></td>
+                </tr>
+            </form>
+            
+            <form method="POST" action="loader_comanda.php">
+                <tr class="comanda">
+                    <td class="id_comanda">Nr. comanda: 7</td>
+                    <td class="data">Data plasarii comenzii: 18.05.2022 &#65279; &#65279; &#65279; Ora: 12:07</td>
+                    <td class="buton"><button class="apasa">Afiseaza Comanda</button></td>
+                    <td style="display: none;"><input type="text" value= 7 name="id_comanda"></td>
+                </tr>
+            </form>
+            
+            <form method="POST" action="loader_comanda.php">
+                <tr class="comanda">
+                    <td class="id_comanda">Nr. comanda: 8</td>
+                    <td class="data">Data plasarii comenzii: 19.05.2022 &#65279; &#65279; &#65279; Ora: 02:19</td>
+                    <td class="buton"><button class="apasa">Afiseaza Comanda</button></td>
+                    <td style="display: none;"><input type="text" value= 8 name="id_comanda"></td>
+                </tr>
+            </form>
+            
+            
+                <tr id="final-space"><td colspan="3"></td></tr>
+
+                </table>
+
+                
+            </body>
+
+
+            <script>
+
+                function open_menu() {
+
+                    document.getElementById("dropdown").style.visibility = "visible";
+
+                }
+
+                function close_menu() {
+
+
+                    document.getElementById("dropdown").style.visibility = "hidden";
+
+                }
+
+                document.getElementById("dropdown").style.visibility = "hidden";
+
+
+            </script>
+
+            </html>
+
+            

@@ -1,0 +1,183 @@
+body{
+    margin: 0%;
+    background-color: #ebf5f5;
+}
+
+#header{
+
+    top: 0;
+    position: sticky;
+    
+    background-color: #bbdddd;
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#menu{
+    height: 3vw;
+}
+
+#meniu{
+    width: 3vw;
+    background-image: url(Resurse/menu.png);
+    background-size: 3vw;
+}
+
+@font-face {
+    font-family: "shoestore";
+    src: url("Resurse/ShoeStor.ttf");
+}
+
+#Nume_Site{
+
+    font-family: shoestore;
+    font-size: 3em;
+    width: 3vw; 
+
+    margin-left: auto;
+}
+
+#spatiu_titlu{
+    width: 45vw;
+}
+
+#spatiu_dr{
+    width: 16.5vw;
+}
+
+#dropdown{
+    
+    top: 3vw;
+    position: sticky;
+
+    width: 12vw;
+}
+
+#dropdown a {
+
+    font-size: 1.5em;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+
+}
+  
+#dropdown a:hover {
+
+    background-color: #bbdddd;
+    
+}
+
+
+#cont{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dateP{
+    height: 2.5em;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5em;
+    word-wrap: break-word;
+}
+
+.mini-space{
+    height: 0.5em;
+}
+
+.date{
+    background-color: white;
+    
+    text-align: left;
+    font-size: 1.7em;
+    word-wrap: break-word;
+
+    height: 2.5em;
+}
+
+#col1{
+    width: 15em;
+    padding-left: 2em;
+}
+
+#col2{
+    width: 25em;
+    padding-left: 2em;
+}
+
+#big-space{
+    height: 4em;
+}
+
+.comanda{
+    background-color: white;
+    
+    text-align: left;
+    font-size: 1.5em;
+    word-wrap: break-word;
+
+    height: 2.5em;
+}
+
+.comanda:hover{
+    background-color: #bbdddd;
+}
+
+.data{
+    padding-left: 2em;
+}
+
+#final-space{
+    height: 10em;
+}
+
+
+#comenzi{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titluCom{
+    height: 2.5em;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5em;
+    word-wrap: break-word;
+}
+
+.id_comanda{
+    width: 10em;
+    text-align: center;
+}
+
+.data{
+    width: 29.7em;
+}
+
+.buton{
+    width: 8em;
+    text-align: center;
+}
+
+.apasa{
+    font-size: 0.7em;
+    background-color: white;
+    border: 0.15em  solid #bcdcdc;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.apasa:hover{
+
+    background-color: #79b9b9;
+    color: white;
+
+}

@@ -1,0 +1,100 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                <link rel="stylesheet" href="style.css">
+
+                <title>Homepage</title>
+            </head>
+
+            <body>
+
+                <table id="header">
+                    <tr id="menu">
+                        <td id="meniu" onmouseover="open_menu()" onmouseleave="close_menu()"></td>
+
+                        <td id="spatiu_titlu"></td>
+
+                        <td id="Nume_Site">SNKRS</td>
+
+                        <td></td>
+
+                        <td id="spatiu_dr"></td>
+                    </tr>
+
+                </table>
+
+                <div id="dropdown" onmouseover="open_menu()" onmouseleave="close_menu()">
+                    <a href="../../../Homepage/loader_homepage.php">Home</a>
+                    <a href="../../loader_cont.php">Cont</a>
+                    <a href="../../../Cos/loader_cos.php">Cos de cumparaturi</a>
+                    <a href="#">Despre</a>
+                </div>
+
+                <table id="articole">
+                
+            <tr class="item">
+                <td class="icon"><img class="icon" src="https://images.stockx.com/images/Air-Jordan-6-Retro-Red-Oreo.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1651243410"></td>
+            <td class="nume">Jordan 6 Retro Red Oreo</td>
+            <td class="colorway">White/University Red-Black</td>
+            <td class="gen">Men</td>
+            <td class="pret">200$</td>
+            <form method="post" action="adauga_cos.php">
+            <td class="remove"><button class="sterge">Adauga in cos</button></td>
+
+            <td style="display: none;"> <input type="text" value=7 name="id_prod" ></td>
+            </form> 
+            </tr>
+            
+            <tr class="spacing"><td colspan="6"></td></tr>
+            
+            <tr class="item">
+                <td class="icon"><img class="icon" src="https://images.stockx.com/images/Air-Jordan-11-CMFT-Low-Concord.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652142753"></td>
+            <td class="nume">Jordan 11 CMFT Low Concord</td>
+            <td class="colorway">White/Black/Ice</td>
+            <td class="gen">Men</td>
+            <td class="pret">125$</td>
+            <form method="post" action="adauga_cos.php">
+            <td class="remove"><button class="sterge">Adauga in cos</button></td>
+
+            <td style="display: none;"> <input type="text" value=13 name="id_prod" ></td>
+            </form> 
+            </tr>
+            
+            <tr class="spacing"><td colspan="6"></td></tr>
+            
+                        <tr class="big-space">
+                        <td colspan="6"></td>
+                    </tr>
+
+                </table>
+
+            </body>
+
+            <script>
+
+                function open_menu() {
+
+                    document.getElementById("dropdown").style.visibility = "visible";
+
+                }
+
+                function close_menu() {
+
+
+                    document.getElementById("dropdown").style.visibility = "hidden";
+
+                }
+
+                document.getElementById("dropdown").style.visibility = "hidden";
+
+
+            </script>
+
+            </html>
+            

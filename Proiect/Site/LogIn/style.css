@@ -1,0 +1,52 @@
+body{
+    background-color: #dff9fb;
+}
+
+#main{
+
+    margin-top: 30vh;
+    margin-left: 32.5vw;
+
+    border-radius: 50px;
+
+    text-align: center;
+
+    width: 35vw;
+    height: 18vw;
+    background-color: #00cec9;
+}
+
+#utilizator{ 
+    margin-top: 4vw;
+}
+
+label{
+    color: #dff9fb;
+    font-weight: 900;
+    font-size: 200%;
+}
+
+input{
+    font-weight: 900;
+    border: transparent;
+}
+
+#trimite{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 7vh;
+    font-size: 100%;
+    border-radius: 20px;
+    background-color: #f1b066;
+    color: #e8f7f8;
+}
+
+#trimite:hover{
+    background-color: #ffbe76;
+}
+
+a{
+    color: #e8f7f8;
+    font-weight: 600;
+    font-size: 120%;
+}
